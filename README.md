@@ -86,13 +86,9 @@ Thư viện OOP hỗ trợ các bước EDA, gồm 4 class:
 |-------|---------|
 | LightGBM | Bắt pattern phi tuyến, lag/rolling features |
 | CatBoost | Xử lý tốt categorical features (ItemCode) |
-**Tầng 2 — Meta Model:**
-- `Ridge(positive=True)`
 
-### Điểm nổi bật
-- WRMSSE-weighted training: ưu tiên mặt hàng có doanh thu cao
-- Tạo file submission chuẩn từ `sample_submission.csv`
-- Clip prediction `>= 0`, fill NaN, kiểm tra shape trước khi export
+**Tầng 2 — Meta Model:** `Ridge(positive=True)`
+
 
 ---
 
